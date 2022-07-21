@@ -22,21 +22,23 @@ function SearchWather() {
                       aria-label="Search city"
                       aria-describedby="basic-addon2"
                     />
-                    <button type="search" class="input-group-text" id="basic-addon2">
+                    <button
+                      type="search"
+                      class="input-group-text"
+                      id="basic-addon2"
+                    >
                       <i className="fas fa-search"></i>
                     </button>
                   </div>
                 </form>
                 <div className="bg-dark bg-opacity-50 py-3">
-                <h1 class="card-title">London</h1>
-                <p class="card-text lead">
-                 Thursday, October 14, 2022
-                </p>
-                <hr/>
-                <i className="fas fa-cloud fa-4x"></i>
-                <h1 className="fw-bolder mb-5">33.06 &deg;C</h1>
-                <p className="lead fw-bolder mb-0">Clod</p>
-                <p className="lead">33.01 &deg;C | 35.01 &deg;C</p>
+                  <h1 class="card-title">London</h1>
+                  <p class="card-text lead">Thursday, October 14, 2022</p>
+                  <hr />
+                  <i className="fas fa-cloud fa-4x"></i>
+                  <h1 className="fw-bolder mb-5">33.06 &deg;C</h1>
+                  <p className="lead fw-bolder mb-0">Clod</p>
+                  <p className="lead">33.01 &deg;C | 35.01 &deg;C</p>
                 </div>
               </div>
             </div>
