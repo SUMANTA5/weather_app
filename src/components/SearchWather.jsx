@@ -88,7 +88,6 @@ function SearchWather() {
                       name="search"
                       value={input}
                       onChange={(e) => setInput(e.target.value)}
-                      required
                     />
                     <button
                       type="search"
